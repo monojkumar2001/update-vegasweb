@@ -1,0 +1,97 @@
+/* =======================privacy_policy atart========================= */
+.policy-title {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+p.sm-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #FD5444;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.policy-sec-title{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    font-family: var(--third-font);
+}
+
+h2.sec-title {
+    font-size: 40px;
+    color: var(--second-color);
+    position: relative;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+    font-family: var(--primery-font);
+}
+.sec-des{
+    font-family: var(--third-font);
+}
+p.sec-des{
+    padding-bottom: 40px;
+}
+h2.sec-title:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 40%;
+    background: var(--main-color);
+    bottom: 0;
+}
+h4.policys-sec-title{
+    font-family: var(--primery-font);
+    font-weight: 700;
+    font-size: 30px;
+}
+.terms-conditions {
+    padding-bottom: 50px;
+}
+.urbanist-black-16 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #14161b;
+    font-family: var(--third-font);
+}
+.pp-sm-title{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--third-font);
+    margin: 15px 0;
+    line-height:45px;
+}
+a{
+    color: #000;
+}
+
+@media screen and (max-width: 992px) {
+    .terms-conditions {
+        padding: 0px;
+    }
+    .policy-title {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+    h2.sec-title {
+        font-size: 30px;
+    }
+    p.sm-title {
+        font-size: 18px;
+    }
+    .pp-sm-title{
+        font-size: 20px;
+    }
+    .policy-sec-title {
+        margin-bottom: 30px;
+        font-size: 25px;
+        line-height: 45px;
+    }
+}

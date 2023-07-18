@@ -1,0 +1,309 @@
+
+/* <!-- ============== Our Recent Project start============== --> */
+
+.our-recent-title h3 {
+    font-size: 40px;
+    font-family: "Urbanist";
+    font-weight: 800;
+    color: #323232;
+    line-height: 50px;
+  }
+  
+  .our-recent-project-items {
+    position: relative;
+  }
+  
+  .our-recent-arrow-left {
+    position: absolute;
+    left: -7%;
+  }
+  
+  .our-recent-arrow {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 114, 52, 0.2);
+    padding: 10px;
+    bottom: 50%;
+  }
+  
+  .our-recent-arrow-right {
+    position: absolute;
+    right: -8%;
+  }
+  
+  .our-recent-project-item {
+    width: 100%;
+  }
+  
+  .our-recent-project-img img {
+    width: 100%;
+  }
+  
+  .our-recent-project-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .our-recent-project-content-item h3 {
+    color: #14161b;
+    font-family: "Urbanist";
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .our-recent-project-content-item a {
+    color: #11142d;
+  }
+  
+  .our-recent-project-content-item-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 114, 52, 0.2);
+    cursor: pointer;
+  }
+
+  /* <!-- ============== Our Recent Project end============== --> */
+
+  
+/* <!-- ============== Our Imagine start ======================  --> */
+
+.imagine-title h3 {
+    text-align: center;
+  }
+  .imagine-item-title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .imagine-item-titles h1{
+    text-align: center;
+    width: 100%;
+  }
+  .imagine-item-title h4{
+    font-family: "Urbanist";
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .imagine-warrper .imagine-items {
+   padding-top: 60px;
+  }
+  .imagine-item-title .portfolio_hero_box_btn button {
+    border-radius: 39.5px 0px 39.5px 39.5px;
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #FD5444;
+    border: none;
+    margin-top: 0;
+}
+  .imagine-items {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 4%;
+    gap: 4%;
+    align-items: center;
+  }
+  
+  .imagine-item h4 {
+    font-family: "Urbanist";
+    font-weight: 700;
+    font-size: 22px;
+    color: #434343;
+    margin-bottom: 20px;
+  }
+  
+  .imagine-item-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imaging-img {
+    width: 100%;
+  }
+  
+  .imaging-img img {
+    width: 100%;
+  }
+  
+  .imagine-arrow-left {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+    z-index: 1;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .imagine-arrow-right {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000033;
+    z-index: 999;
+    display: none;
+    backdrop-filter: blur(14px);
+    transition: 0.3s;
+  }
+  
+  .slider-popup-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .slider-popup-img img {
+    max-width: 100%;
+  }
+  
+  .slider-popup.active {
+    display: block;
+  }
+  button.close-btn {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    top: 12px;
+    border:none;
+    z-index: 999;
+}
+.swiper-slide {
+    background: none !important;
+}
+
+
+  @media screen and (max-width: 1500px) {
+    .our-recent-arrow-left {
+      left: 45%;
+    }
+    .our-recent-project-items{
+      margin-bottom: 50px;
+    }
+  .our-recent-arrow {
+    bottom: -15%;
+  }
+    .our-recent-arrow-right {
+      right: 45%;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .our-recent-arrow-left {
+      left: 42%;
+    }
+    .our-recent-project-items{
+      margin-bottom: 50px;
+    }
+  .our-recent-arrow {
+    bottom: -15%;
+  }
+    .our-recent-arrow-right {
+      right: 42%;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .imagine-items {
+      grid-template-columns: 48% 48%;
+      gap: 4%;
+    }
+    .our-recent-arrow-left {
+      left: 40%;
+    }
+    .our-recent-project-items{
+      margin-bottom: 80px;
+    }
+  .our-recent-arrow {
+    bottom: -15%;
+  }
+    .our-recent-arrow-right {
+      right: 40%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .our-recent-arrow-left {
+      left: 35%;
+    }
+    .our-recent-project-items{
+      margin-bottom: 80px;
+    }
+  .our-recent-arrow {
+    bottom: -10%;
+  }
+    .our-recent-arrow-right {
+      right: 35%;
+    }
+  }
+
+  
+  @media screen and (max-width: 576px) {
+    .imagine-items {
+      grid-template-columns: 100%;
+      gap: 50px;
+    }
+    .imagine-title h3 {
+      font-size: 30px;
+    }
+    .our-recent-title h3 {
+      font-size: 30px;
+      font-family: "Urbanist";
+      font-weight: 800;
+      color: #323232;
+      line-height: 50px;
+  }
+.imagine-item-title .portfolio_hero_box_btn button {
+  padding: 10px 35px;
+  font-size: 16px;
+}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .our-recent-arrow-left {
+      left: 25%;
+    }
+    .our-recent-project-items{
+      margin-bottom: 80px;
+    }
+  .our-recent-arrow {
+    bottom: -14%;
+  }
+    .our-recent-arrow-right {
+      right: 25%;
+    }
+  }
+  /* <!-- ============== Our Imagine end ======================  --> */
+
+
+  

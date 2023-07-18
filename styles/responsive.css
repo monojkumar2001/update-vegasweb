@@ -1,0 +1,448 @@
+/* ===================== Home page  Start ==================== */
+@media screen and (max-width: 1500px) {
+    .newsletters_box_left {
+        padding: 64px 40px;
+        margin-left: 10%;
+        z-index: 90;
+        position: relative;
+    }
+    .newsletters_box_right {
+        position: absolute;
+        right: -70px;
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 1240px) {
+    .newsletters_box_left {
+        padding: 64px 40px;
+        margin-left: 10%;
+        z-index: 90;
+        position: relative;
+    }
+    .newsletters_box_right img{
+      display: none;
+    }
+    .newsletters_title h1 {
+        font-size: 50px;
+    }
+    .registration_title h1 {
+        font-size: 50px;
+        line-height: 120%;
+    }
+    .registration_form_name {
+        margin-right: 10px;
+    }
+    .registration_right_box_disc h3{
+        font-size: 16px;
+    }
+    .registration_right_box{
+        padding: 40px 60px;
+    }
+}
+@media screen and (max-width: 992px) {
+  /* hero */
+  .home {
+    padding: 70px 0 100px 0;
+  }
+  .home_box_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .home_box_right {
+    margin-top: 50px;
+  }
+  .service_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+  /* service-item */
+  .section_service_box {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Why Us */
+  .disc_left{
+    text-align: center;
+  }
+  .disc_title h1{
+    text-align: center;
+  }
+  .disc_right {
+    margin-top: 50px;
+  }
+
+  /* services */
+  .service_title p {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .client_title h3 {
+    width: 100%;
+}
+/* Client */
+.client_right_title h5 {
+    font-size: 30px;
+    line-height: 45px;
+}
+/* faq */
+.left-faq h2{
+    font-size: 30px;
+    line-height: 45px;
+}
+.registration_right{
+    margin-top: 20px;
+ }
+ .price-range-width{
+  width: 100%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  /* hero */
+  .home_title p {
+    margin-top: 15px;
+  }
+  .home_box_right {
+    margin-top: 30px;
+  }
+  .service_box{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+  /* service-item */
+  .section_service_box {
+    grid-template-columns: 1fr;
+  }
+
+  /* Newsletter  */
+  .newsletters_box_left {
+    padding: 64px 40px;
+    margin-left: 0%;
+}
+.newsletters {
+    background: #FD5444;
+    padding: 0 0px 0 0;
+    margin-top: 40px;
+}
+
+
+.client_box{
+    grid-template-columns: 1fr;
+} 
+
+}
+@media screen and (max-width: 550px) {
+  /* hero */
+  .home {
+    padding: 50px 0 80px 0;
+  }
+
+  /* service-item */
+  .section_service_slider {
+    border-radius: 7px;
+    height: 150px;
+  }
+  .section_service {
+    margin-top: -35px;
+  }
+
+  /* services */
+  .service_box_list_title h2 {
+    font-size: 20px;
+  }
+  .service_box_icons img {
+    width: 45px;
+  }
+  .service_box_icons {
+    width: 70px;
+    height: 70px;
+  }
+  /* mentioned */
+  .mentioned_title h1 {
+    text-align: center;
+  }
+  .mentioned-section {
+    padding: 20px 0 0 0;
+  }
+  .data_center_title {
+    margin-top: 30px;
+  }
+  
+  .business-items.active .business-item p {
+    font-size: 14px;
+    line-height: 22px;
+}
+  /* Newsletter  */
+  .newsletters_box_left {
+    padding: 40px 40px;
+    margin-left: 0%;
+}
+/* .newsletters_name {
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+} */
+.newsletters_name-input {
+  width: 100%;
+}
+.newsletters {
+    background: #FD5444;
+    padding: 0 0px 0 0;
+    margin-top: 40px;
+}
+.newsletters_title h1 {
+    font-size: 30px;
+}
+/* Client */
+.client_right_title h5 {
+    font-size: 25px;
+    line-height: 37px;
+}
+.project_contact_box_disc p {
+    width: 100%;
+}
+.project_contact_box {
+    padding:30px 20px;
+    border-radius: 10px;
+}
+.project_contact_box_contact a {
+    font-size: 18px;
+    border-radius: 7px;
+}
+.left-faq{
+  text-align: center;
+}
+.left-faq img{
+    width: 40%;
+}
+.form-email select {
+    border-radius:4px;
+}
+.registration_title h1{
+    font-size: 29px;
+}
+.registration_disc {
+    margin-top: 20px;
+}
+.registration_disc h3{
+    font-size: 20px;
+    line-height: 25px;
+}
+.registration_disc ul li{
+    font-size: 14px;
+    line-height: 24px;
+}
+.registration_right_box .form_name {
+    display: block !important;
+}
+.registration_right_box {
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+.registration_form_name {
+    margin: 0;
+}
+.registration_right_box_disc h3 {
+    font-size: 14px;
+    line-height: 15px;
+}   
+.registration_icons{
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 450px) {
+    .newsletters_box_left {
+        padding: 40px 10px;
+        margin-left: 0%;
+    } 
+    form input {
+        padding: 4px 15px;
+    }
+    .newsletters_email_address button {
+        padding: 5px 17px;
+    }
+    .newsletters_email_address button {
+      font-size: 14px;
+  }
+}
+
+/* ===================== Home page  End ==================== */
+
+/* ==================== ALl Page Start ================= */
+@media screen and (max-width: 1400px) {
+  .video_editing_box_left {
+    position: absolute;
+    left: -100px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .Brands_box {
+    gap: 30px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .video_editing_image2 {
+    display: none;
+  }
+  .video_editing_title h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.video_editing_box {
+  width: 100%;
+  margin: auto;
+  background: none;
+  border: none;
+  border-radius: 29px;
+padding: 0;
+display: flex;
+flex-direction: column-reverse;
+}
+.video_editing_box_left {
+display:block;
+position: relative;
+left: 0;
+}
+.video_editing_box_left img {
+  width: 100%;
+}
+.video_editing_right {
+  margin-left: 0%;
+  margin-bottom: 50px;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.video_editing_right_title p {
+  font-size: 18px;
+  width: 100%;
+}
+}
+@media screen and (max-width: 991px) {
+  .graphic_left {
+    text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 40px;
+}
+.graphic {
+  padding: 70px 0 100px 0;
+}
+.Brands_box {
+  grid-template-columns: repeat(3, 1fr);
+}
+.social_marketing_left {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.campaign_box {
+  grid-template-columns: 1fr;
+}
+.section_title {
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.request-form .form-group-2 {
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+}
+@media screen and (max-width: 768px) {
+  .brand_design_title {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .brand_dedign_items{
+    margin-bottom: 40px !important;
+  }
+  .brand_design_title a {
+    margin-left: 0px;
+}
+
+}
+@media screen and (max-width: 550px) {
+  .graphic_left {
+    text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 40px;
+}
+.graphic {
+  padding: 50px 0 70px 0;
+}
+.graphic_icons_item h2 {
+  font-size: 16px;
+}
+.graphic_icon svg {
+  width: 30px;
+  height: 30px;
+}
+.video_editing_right_btn button{
+  font-size: 16px;
+}
+.Brands_box {
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.web_dev_services_title {
+  width: 100%;
+}
+.video_editing_title h1 {
+  margin-bottom: 0px;
+}
+.video_editing {
+  padding: 50px 0 80px 0;
+}
+.video_editing_right {
+  margin-bottom: 40px;
+}
+.web_design_title p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.fucas{
+  font-size: 18px;
+}
+.portfolio_hero_box_right {
+  margin-top: 40px;
+}
+.portfolio_hero_box_left h2 {
+  font-size: 18px;
+  line-height: 31px;
+}
+.campaign {
+  padding: 30px 0;
+}
+.campaign_video_box {
+  margin-top: 20px;
+}
+.campaign_asset_box_right img {
+  width: 100%;
+}
+.portfolio_hero_box_btn button {
+  margin-top: 10px;
+}
+.imagine-item-title-con{
+  flex-direction: column;
+  gap: 15px;
+}
+.request-form {
+  padding: 20px;
+}
+}
+/* ==================== All Page End ================= */

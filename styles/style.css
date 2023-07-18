@@ -1,0 +1,731 @@
+/* ==================== Graphics Design Page Start ================= */
+/* <========================== Intro start ==============================> */
+.graphic {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 114, 52, 0.19) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  padding: 100px 0 120px 0;
+}
+
+.graphic_left .graphic_title h1 span {
+  color: var(--secondary-color);
+}
+.graphic_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.graphic_left {
+  align-items: center;
+  text-align: start;
+}
+.graphic_left .graphic_title p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+.graphic_icon {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.graphic_icon svg {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  color: var(--secondary-color);
+  border-radius: 50%;
+}
+.graphic_icons_item h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.graphic_right {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.graphic_right img {
+  width: 100%;
+}
+.graphic_icons_item {
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.graphic_btn button {
+  padding: 15px 40px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+/* <==========================Intro SECTION END ==============================> */
+
+/* =================BRANDS SECTION start===================== */
+
+.Brands_box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px 30px;
+}
+.brands_items img {
+  width: 100%;
+}
+
+/* =================BRANDS SECTION END===================== */
+
+/* <===============BRANDS_DESIGN SECTION Start=================> */
+.brand_design_title {
+  align-items: center;
+  margin-bottom: 50px;
+}
+.brand_design_title a {
+  padding: 10px 40px;
+  border-radius: 35px 0px 35px 35px;
+  margin-left: 45px;
+  white-space: nowrap;
+}
+.brand_dedign_items {
+  position: relative;
+}
+.brand_dedign_items img {
+  width: 100%;
+}
+.brand_dedign_items a {
+  border-radius: 50px 0 60px 50px;
+  background: var(--secondary-color);
+  color: #ffffff;
+  padding: 12px 0px;
+  white-space: nowrap;
+  font-weight: 600;
+  font-family: var(--third-font);
+  font-size: 16px;
+  width: 84%;
+  margin: auto;
+  position: absolute;
+  bottom: -37px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/* <===============BRANDS_DESIGN SECTION END=================> */
+/* <============web_dev_services start==============> */
+
+.web_dev_services_title {
+  font-size: 60px;
+  width: 80%;
+  margin: auto;
+}
+
+.web_dev_service_box_item {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 11.11px 49.06px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  height: 210px;
+}
+
+.web_dev_serivce_box_item_logo {
+  margin: auto;
+  margin-top: 15px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  text-align: center;
+  background: rgba(255, 114, 52, 0.2);
+  padding: 10px;
+}
+
+.web_dev_serivce_box_item_logo img {
+  width: 60px;
+  height: 60px;
+}
+.web_dev_service_box_item {
+  transition: 0.3s;
+}
+
+.web_dev_service_box_item h3 {
+  font-family: var(--primery-font);
+  font-size: 18px;
+  font-weight: 800;
+  padding-top: 30px;
+  transition: 0.3s;
+}
+.web_dev_service_box_item:hover {
+  background: var(--secondary-color);
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.web_dev_service_box_item:hover h3 {
+  color: #ffffff;
+}
+.web_dev_service_box_item:hover .serivce_box_item_logo {
+  background-color: #fff;
+}
+/* <============web_dev_services end==============> */
+/* ==================== Graphics Design Page End ================= */
+
+
+/* ================== Video Editing Page Start ================ */
+/* <=======================Video Section Start==========================> */
+
+.video_editing {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 114, 52, 0.19) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  padding: 70px 0 120px 0;
+}
+
+.video_editing_title {
+  margin: 20px auto;
+  position: relative;
+}
+.video_editing_title h1 {
+  width: 60%;
+}
+.video_title_icons img {
+  width: 100%;
+  height: 100%;
+}
+.video_editing-wrapper{
+  position: relative;
+}
+
+.video_editing_box {
+  width: 60%;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 29px;
+  padding: 40px;
+}
+.video_editing_box_left {
+  position: absolute;
+  left: -40px;
+}
+.video_editing_box_left img {
+  width: 90%;
+}
+.video_editing_right {
+  margin-left: 27%;
+}
+.video_editing_right_title {
+  margin-bottom: 25px;
+}
+.video_editing_right_title p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #11142d;
+  width: 90%;
+}
+.video_editing_right_btn {
+  margin: 10px auto;
+}
+.video_editing_right_btn a{
+  background: #fd5444;
+  box-shadow: 0px 5px 15px rgba(62, 53, 120, 0.14);
+  border-radius: 37px;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #fd5444;
+  transition: 0.4s;
+}
+.video_editing_right_btn a:hover {
+  background: transparent;
+  color: #fd5444;
+}
+.video_editing_right_btn .learn-more-btn {
+  background: transparent;
+  color: #fd5444;
+}
+.video_editing_right_btn .learn-more-btn:hover {
+  background: #fd5444;
+  color: #ffffff;
+}
+.video_editing_icons svg {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+.hero_icons_item h2 {
+  padding-top: 12px;
+  font-size: 16px;
+}
+.video_editing_image2 {
+  position: absolute;
+  right: -50px;
+  top: -80px;
+}
+.video_editing_image2 img {
+  width: 80%;
+}
+
+/* <====================Video Section END=======================> */
+/* ================== Video Editing Page End ================ */
+
+/* ======================= Social Marketing Page =================== */
+/* <=================Intro Start=====================> */
+.social_marketing {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 114, 52, 0.19) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+
+.social_marketing_title h1 span {
+  color: var(--secondary-color);
+}
+.social_marketing_title p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.social_marketing_right img {
+  width: 100%;
+}
+/* <=================Intro END====================> */
+
+/* ==================== Web Design Page ============= */
+
+/* <=======================Intro start=======================> */
+.web_design {
+  background: linear-gradient(
+    -360deg,
+    rgba(255, 114, 52, 0.19) 0.76%,
+    rgba(217, 217, 217, 0) 100.76%
+  );
+}
+.web_design_title h1 span {
+  color: var(--secondary-color);
+}
+.web_design_title p {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 10px 0 20px 0;
+}
+.web_design_box_right img {
+  width: 100%;
+}
+/* <=======================Intro END=======================> */
+
+/* <===================LESS_MONEY SECTION Start=======================> */
+.less_money_box {
+  margin-top: 50px;
+  gap: 30px 0;
+}
+.less_money_box_item {
+  cursor: pointer;
+  padding: 30px 25px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  text-align: center;
+  height: 100%;
+position: relative;
+}
+
+.less_money_item_title h1 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--third-font);
+  color: var(--secondary-color);
+}
+
+.less_money_box_icons {
+  margin: auto;
+  margin-bottom: 20px;
+}
+.less_money_box_icons img{
+  width: 100%;
+}
+.less_money_box_item p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.less_money_box_item .less_money_box_icons {
+  border-radius: 50%;
+  background: rgba(108, 84, 234, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 80px;
+  height: 80px;
+}
+.less_money_box_item:hover{
+  background-color: #fd5444;
+}
+.less_money_box_item:hover .less_money_box_icons {
+  background: #ffffff;
+}
+.less_money_box_item:hover .less_money_item_title h1 {
+  color: #ffffff;
+}
+.less_money_box_item:hover p {
+  color: #ffffff;
+}
+/* <===================LESS_MONEY SECTION END=======================> */
+
+/* <=============WEB_DESIGN PLATFROM SECTION START==============> */
+.platfroms_title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#Platforms .options {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 40px;
+}
+#Platforms .options h1 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: rgba(50, 50, 50, 0.4);
+}
+#Platforms .options div:hover {
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+#Platforms .options .action {
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+
+#Platforms .options .action > h1 {
+  color: #ffffff;
+}
+#Platforms .options div:hover > h1 {
+  color: #ffffff;
+}
+#Platforms .options div {
+  width: 100%;
+  padding: 15px 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Platforms .option_list {
+  display: none;
+}
+#Platforms .option_list h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+#Platforms .option_list .option_list_items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+#Platfroms .action {
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+
+#Platforms .option_list.active {
+  display: grid;
+}
+#Platforms .option_list_items_img {
+  width: 100%;
+  height: 200px;
+  padding: 0 20px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#Platforms .option_list_items_img:hover {
+  transform: translateY(-10px);
+}
+#Platforms .option {
+  position: relative;
+}
+#Platforms .options .arrow-down {
+  position: absolute;
+  opacity: 0;
+  bottom: -20px;
+}
+
+#Platforms .options div:hover .arrow-down {
+  opacity: 1;
+}
+#Platforms .options .action .arrow-down {
+  opacity: 1;
+}
+#Platforms .options::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  #Platforms .option_list .option_list_items {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 992px) {
+  #Platforms .option_list .option_list_items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #Platforms .options div{
+    white-space: nowrap;
+  }
+  #Platforms .options {
+    overflow-y: scroll;
+    width: 100%;
+  }
+  #Platforms .options .arrow-down {
+    display: none;
+}
+}
+@media screen and (max-width: 768px) {
+  #Platforms .option_list .option_list_items {
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  #Platforms .options {
+    overflow-y: scroll;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #Platforms .option_list .option_list_items {
+    grid-template-columns: 1fr;
+  }
+  #Platforms .options h1 {
+    font-size: 18px;
+    line-height: 20px;;
+}
+}
+/* <=================platfroms section end================> */
+/* ==================== Web Development Page ============= */
+/* <===============Intro Start==================> */
+.web_dev {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 114, 52, 0.19) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+.web_dev_box_left .web_dev_box_title h1 span {
+  color: var(--secondary-color);
+}
+.web_dev_box_left .web_dev_box_title p {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 10px 0 20px 0;
+}
+.web_dev_box_right img {
+  width: 100%;
+}
+/* <===============Intro END==================> */
+
+
+/* <=================SEO section Start================> */
+.seo {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 114, 52, 0.19) 0.76%,
+    rgba(217, 217, 217, 0) 100.76%
+  );
+  transform: rotate(360deg);
+  padding: 80px 0 100px 0;
+  margin-bottom: 500px;
+}
+.seo_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.seo_title {
+  width: 60%;
+  margin: auto;
+}
+
+.seo_title p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  width: 90%;
+}
+.seo_title .seo_btn a {
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.seo_image {
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+  bottom: 0;
+}
+.seo_image-2{
+  display: none;
+}
+.seo_image-2 img{
+  width: 100%;
+}
+@media screen and (max-width: 1650px) {
+  .seo {
+    margin-bottom: 350px;
+  }
+  .seo_image {
+    top: 200px;
+  }
+  .seo_image img {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 1650px) {
+  .seo {
+    margin-bottom: 250px;
+  }
+  .seo_image {
+    top: 200px;
+  }
+  .seo_image img {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .seo {
+    padding: 50px 0 70px 0;
+    margin-bottom: 0px;
+  }
+  .seo_image img {
+display: none;
+  }
+  .seo_image-2{
+    display: block;
+    margin-top: 50px;
+  }
+  .seo_title {
+    width: 100%;
+    margin: auto;
+}
+.seo_title p {
+  width: 100%;
+}
+}
+/* <=============seo section end==========> */
+
+
+/* =============== Social ================== */
+
+
+.right-social {
+  position: fixed;
+  right: 0;
+  z-index: 2;
+  top: 40%;
+}
+
+ul.social-ul-fixed {
+  border-radius: 10px 0 0 10px;
+  height: 45px;
+  background: var(--main-color);
+  overflow: hidden;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  padding: 10px 0 ;
+  margin-bottom: 0;
+  position: relative;
+}
+
+ul.active.social-ul-fixed {
+  height: fit-content;
+  margin-top: 15px;
+}
+.social-media-links{
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+ul.social-ul-fixed li a {
+  color: var(--white-color);
+  margin-top: 10px;
+}
+
+ul.social-ul-fixed li a:hover {
+  color: var(--white-color);
+}
+
+.right-social:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background: var(--main-color);
+  animation: social-pulse 1500ms ease-out infinite;
+  border-radius: 5px;
+  -webkit-animation: social-pulse 1500ms ease-out infinite;
+}
+
+@keyframes social-pulse {
+  0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.1);
+      opacity: 0;
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      -moz-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      -ms-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      -o-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+  }
+}
+
+.right-social.pulse-disable::before {
+  display: none;
+}
+

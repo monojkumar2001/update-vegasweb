@@ -1,0 +1,136 @@
+
+/* ========================== Connect Page ================== */
+.connect-wrapper{
+    padding: 100px 100px;
+  }
+  .connect-from-wrapper  {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 25px;
+    margin: auto;
+  }
+  .connect-from-wrapper  h2{
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  .connect-from-wrapper .input-group input{
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+    border: 1px solid #969696;
+    background: #ffffff00;
+    border-radius: 10px !important;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .connect-from-wrapper  .input-group select{
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+    border: 1px solid #969696;
+    background: #ffffff00;
+    border-radius: 10px !important;
+    font-size: 16px;
+    color: #969696;
+    font-weight: 500;
+  }
+  .connect-from-wrapper  .input-group label{
+    color: #11142d;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .connect-from-wrapper  .input-group textarea{
+    width: 100%;
+    border-radius: 10px !important;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #969696;
+  }
+  
+  label.checkbox-container{
+    color: #11142d;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  label.checkbox-container a{
+    margin-left: 10px;
+    color: #fd5444;
+font-weight: 600;
+  }
+  .btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .btns .btn-hero-1{
+    padding: 10px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px 0 50px 50px;
+    color: #ffffff;
+    background: var(--secondary-color);
+    display: flex;
+    font-family: var(--primery-font);
+    align-items: center;
+    grid-gap: 10px;
+    border: none;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .go-back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .go-back-btn button{
+    padding: 10px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px 0 50px 50px;
+    color: #ffffff;
+    background: var(--secondary-color);
+    display: flex;
+    font-family: var(--primery-font);
+    align-items: center;
+    grid-gap: 10px;
+    border: none;
+    gap: 10px;
+    position: relative;
+  }
+  .input-group p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .text-count{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .connect-from-wrapper  {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 25px;
+        margin: auto;
+      }
+      .connect-wrapper {
+        padding: 100px 0px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+      .connect-wrapper {
+        padding: 80px 0px;
+    }
+    .input-group-fullname{
+        flex-direction: column;
+    }
+  }
